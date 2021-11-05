@@ -67,9 +67,9 @@ map<char,int> dict;
 
 void generate_bnTable(int k, int b, int num)
 {
-    int k1 = k - b;
+    int k1 = b;
     klen = k;
-    blen = b;
+    blen = k - b;
     vlen = num;
 
     for(int i = 0; i < num; i++)
